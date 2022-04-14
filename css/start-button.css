@@ -1,0 +1,83 @@
+.button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica;
+    border: none;
+    margin-top: 25vh;
+    margin-bottom: 65vh;
+}
+.button-container a {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #2196f3;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 42px;
+    overflow: hidden;
+    transition: 0.2s;
+    text-decoration: none;
+}
+.button-container a:hover {
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 20px #2196f3, 0 0 80px #2196f3, 0 0 160px #2196f3;
+    transition-delay: 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+}
+.button-container a span {
+    position: absolute;
+    display: block;
+}
+.button-container a span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#2196f3);
+}
+.button-container a:hover span:nth-child(1) {
+    left: 100%;
+    transition: 0.3s;
+}
+.button-container a span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#2196f3);
+}
+.button-container a:hover span:nth-child(3) {
+    right: 100%;
+    transition: 0.3s;
+    transition-delay: 0.15s;
+}
+.button-container a span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#2196f3);
+}
+.button-container a:hover span:nth-child(2) {
+    top: 100%;
+    transition: 0.3s;
+    transition-delay: 0.075s;
+}
+.button-container a span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#2196f3);
+}
+.button-container a:hover span:nth-child(4) {
+    bottom: 100%;
+    transition: 0.3s;
+    transition-delay: 0.225s;
+}
+

@@ -1,0 +1,42 @@
+.machine-advisor {
+    height: fit-content; 
+}
+.augmented-advisor {
+    height: fit-content;
+    background-color: #04182a;
+}
+.secure-advisor {
+    height: fit-content;
+}
+.card__logo {
+    background-image: url(../img/schneider-logo.png);
+    background-size: 158px 120px;
+    background-position: 0% -30px;
+    width: 158px;
+    height: 60px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.card {
+    height: fit-content;
+    margin: auto auto;
+}
+.service-title:before {
+    position: absolute;
+    display: inline-block;
+    content: "";
+    border-top: 5px solid #444;
+    width: 180px;
+    margin-bottom: 10px;
+    top: -15px;
+    margin-left: 1px;
+}
+.service-title {
+    font-family: Helvetica;
+}
+
+
+
+
+
+

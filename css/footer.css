@@ -1,0 +1,9 @@
+.footer {
+    padding-top: 10px;
+    background-color: #020e1a;
+    min-height: 100px;
+    height: fit-content;
+}
+.footer-list {
+    list-style-type: none;
+}

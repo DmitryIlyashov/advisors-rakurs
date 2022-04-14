@@ -1,0 +1,8 @@
+#conveyor-mode-message, #conveyor-speed-message, #conveyor-status-message, .speed-value-text,
+#boiler-status-message, #boiler-motor-message, #boiler-burner-message {
+    font-size: 20px;
+    margin-top: 30px;
+}
+.mode-text {
+    font-size: 20px;    
+}
